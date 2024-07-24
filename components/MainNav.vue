@@ -15,8 +15,8 @@ const links = ref([
     class="flex justify-between sm:justify-around p-5 shadow-md items-center"
   >
     <Sheet>
-      <SheetTrigger>
-        <Button variant="outline" class="sm:hidden">
+      <SheetTrigger class="sm:hidden">
+        <Button variant="outline">
           <HamburgerMenuIcon class="w-4 h-4" /> </Button
       ></SheetTrigger>
       <SheetContent side="left">
